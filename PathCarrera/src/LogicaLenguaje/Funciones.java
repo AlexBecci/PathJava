@@ -32,7 +32,7 @@ public class Funciones {
         System.out.println("Division con dos argumentos");
         return numero1 / numero2;
     }
-
+    
     public static void divisionSinArgumentos() {
         System.out.println("Division SIN ARGUMENTOS");
         System.out.println("Ingrese el primer valor");
