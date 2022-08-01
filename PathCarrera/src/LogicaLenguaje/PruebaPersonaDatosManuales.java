@@ -1,16 +1,13 @@
-
 package LogicaLenguaje;
-
-import java.util.Scanner;
 
 public class PruebaPersonaDatosManuales 
 {
     //Metodo MAIN
-    public static void main(String[] args) {
+    public static void main(String[] args) {  
         
-        ClasePersona persona2 = new ClasePersona();//Creando un objeto de la clase "ClasesPersona"
+        ClasePersona persona2 = new ClasePersona();//Creando un objeto de la clase "ClasesPersona"      
         
-        //Ingrese su nombre
+       //Ingrese su nombre
  
        //Ingrese su edad
    
@@ -22,7 +19,7 @@ public class PruebaPersonaDatosManuales
         //Ejemplo : 1.8
 
 
-        //Genero: 
+       //Genero: 
         //Masculino = 1
         //Femenimo = 2  
         //Otro = 3
@@ -32,7 +29,7 @@ public class PruebaPersonaDatosManuales
         persona2.edad(27);
         persona2.condicionTrabajo(0);
         persona2.estatura(1.72f);
-        persona2.generoPersona(3);
+        persona2.generoPersona(3);       
      
         
     }
