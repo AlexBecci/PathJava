@@ -1,17 +1,15 @@
 
 package ClasesAbstractas;
 
-public class Circulo extends Figura{
+public class Circulo implements Figura{
     
     protected double radio;
 
     public Circulo(){
         
     }
-    public Circulo(double radio,double x,double y)
+    public Circulo(double radio)
     {
-        this.x = x;
-        this.y =y;
         this.radio = radio;      
     }
     

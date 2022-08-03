@@ -1,17 +1,19 @@
 package ClasesAbstractas;
 
-public class Cuadrado extends Figura {
+public class Cuadrado implements Figura {
 
     protected double lado;
-
-    public Cuadrado() {
-
+    
+    public Cuadrado(double lado)
+    {
+        this.lado =lado;
     }
 
-    public Cuadrado(double lado, double x, double y) {
-        super(x, y);
-        this.lado = lado;
+    public Cuadrado() 
+    {
+  
     }
+    
 
     public double calcularArea() {
         double resultado = lado * lado;
